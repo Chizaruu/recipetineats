@@ -1,0 +1,18 @@
+.Card {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__Title {
+        color: #0a1d2d;
+    }
+
+    &__Desc {
+        color: lightgray;
+        font-family: "Times New Roman", Times, serif;
+    }
+}
