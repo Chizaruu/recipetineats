@@ -1,0 +1,14 @@
+.nav {
+    width: 100%;
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #000;
+    }
+}
