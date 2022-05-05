@@ -1,12 +1,14 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Card from "./components/CardSecondSection/Card";
+import styles from "./App.module.scss";
+import Nav from "./container/first-section/Nav";
+import Header from "./container/first-section/Header";
 import CardListSecondSection from "./containers/CardListSecondSection";
 import data from "./data/recipes";
 
 function App() {
     return (
-        <div className="App">
+        <div className={styles.App}>
+            <Header />
+            <Nav />
             <CardListSecondSection recipesData={data} />
         </div>
     );

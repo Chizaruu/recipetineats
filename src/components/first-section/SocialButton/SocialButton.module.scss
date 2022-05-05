@@ -1,0 +1,14 @@
+.socialButton {
+    &__button {
+        width: 36px;
+        height: 36px;
+        border-radius: 15px;
+        border: none;
+        background-color: #dce8e8;
+        margin: 0 2px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
