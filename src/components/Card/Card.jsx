@@ -9,14 +9,14 @@ const Card = ({
     return (
         <div className={styles.Card}>
             <div>
-                <img className={styles.Card_Image} src={image} />
+                <img className={styles.Card_Image} src={image} alt="?" />
             </div>
             <div>
                 <h5 className={styles.Card_Category}>{category}</h5>
                 <h2 className={styles.Card_Name}>{recipeName}</h2>
 
                 <p className={styles.Card_Desc}>{description}</p>
-                <button className={styles.Card_Button}>Get the recipe ></button>
+                <button className={styles.Card_Button}>Get the recipe</button>
             </div>
         </div>
     );
