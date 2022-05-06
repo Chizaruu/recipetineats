@@ -1,4 +1,4 @@
-import SocialButton from "./../../../components/first-section/SocialButton";
+import SocialButton from "./../../components/SocialButton";
 import styles from "./Header.module.scss";
 
 const Header = () => {

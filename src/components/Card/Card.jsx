@@ -9,7 +9,7 @@ const Card = ({
     return (
         <div className={styles.Card}>
             <div>
-                <img className={styles.Card_Image} src={image} />
+                <img className={styles.Card_Image} src={image} alt="?" />
             </div>
             <div>
                 <h5 className={styles.Card_Category}>{category}</h5>
