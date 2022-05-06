@@ -16,7 +16,7 @@ const Card = ({
                 <h2 className={styles.Card_Name}>{recipeName}</h2>
 
                 <p className={styles.Card_Desc}>{description}</p>
-                <button className={styles.Card_Button}>Get the recipe</button>
+                <button className={styles.Card_Button}>Get the recipe ></button>
             </div>
         </div>
     );
