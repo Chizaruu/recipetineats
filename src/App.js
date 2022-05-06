@@ -1,7 +1,7 @@
 import styles from "./App.module.scss";
-import Nav from "./container/first-section/Nav";
-import Header from "./container/first-section/Header";
-import CardListSecondSection from "./containers/CardListSecondSection";
+import Nav from "./containers/Nav";
+import Header from "./containers/Header";
+import CardList from "./containers/CardList";
 import data from "./data/recipes";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
         <div className={styles.App}>
             <Header />
             <Nav />
-            <CardListSecondSection recipesData={data} />
+            <CardList recipesData={data} />
         </div>
     );
 }
