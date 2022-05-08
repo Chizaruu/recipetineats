@@ -1,0 +1,21 @@
+.Collections {
+  padding: 50px;
+  width: 660px;
+
+  &__divider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 12px;
+      color: rgba(31, 49, 81, 100%);
+    }
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

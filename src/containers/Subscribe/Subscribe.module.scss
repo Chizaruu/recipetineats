@@ -1,0 +1,48 @@
+.Subscribe {
+  &__container {
+    border-top: 5px solid rgba(31, 49, 81, 100%);
+    border-bottom: 5px solid rgba(31, 49, 81, 100%);
+    margin: 20px 50px;
+    width: 660px;
+    text-align: center;
+    padding: 20px;
+    color: rgba(31, 49, 81, 100%);
+    font-weight: 400;
+  }
+
+  &__divide {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__signupSection {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+    input {
+      font-size: 14px;
+      line-height: 30px;
+      margin-bottom: 8px;
+      border-color: lightgrey;
+      color: rgba(31, 49, 81, 100%);
+    }
+
+    a {
+      background-color: rgba(228, 128, 113, 100%);
+      border-radius: 30px;
+      padding: 7px 0px;
+      margin-top: 8px;
+      width: 170px;
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      transition: 0.3s;
+      align-self: center;
+
+      &:hover {
+        background-color: rgb(214, 118, 103);
+      }
+    }
+  }
+}

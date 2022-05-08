@@ -1,0 +1,15 @@
+.Button {
+  text-decoration: none;
+  background-color: rgba(221, 232, 232, 100%);
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 800;
+  color: rgba(31, 49, 81, 100%);
+  transition: 0.3s;
+  font-size: 13px;
+
+  &:hover {
+    background-color: rgba(31, 49, 81, 100%);
+    color: white;
+  }
+}
