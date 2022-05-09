@@ -1,0 +1,9 @@
+.HaveABrowse {
+  padding: 50px;
+  border-bottom: 1px solid lightgrey;
+
+  &__CardsList {
+    display: flex;
+    flex-direction: row;
+  }
+}

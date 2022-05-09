@@ -1,17 +1,22 @@
 .Card {
-    display: flex;
-    width: 650px;
-    padding-bottom: 17px;
-    border-bottom: #eaebea solid 2px;
-    margin-bottom: 17px;
-    &_Button {
-        background-color: salmon;
-        border-radius: 10px;
-        border: none;
-        height: 25px;
-        color: white;
-        &:hover {
-            cursor: pointer;
-        }
+  display: flex;
+  width: 650px;
+  padding-bottom: 17px;
+  border-bottom: #eaebea solid 2px;
+  margin-bottom: 17px;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &_Button {
+    background-color: salmon;
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    color: white;
+    &:hover {
+      cursor: pointer;
     }
+  }
 }
